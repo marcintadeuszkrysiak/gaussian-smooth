@@ -26,4 +26,3 @@ def gaussian_smooth(
     padded = np.pad(arr, pad_width, mode=mode)
     smoothed = np.convolve(padded, kernel, mode="valid")
     return smoothed
-  
